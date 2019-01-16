@@ -1,14 +1,12 @@
-package com.rabbit.mq.example;
+package com.springframework.rabbitmq.order;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootRabbitMqApplication {
+public class RabbitMqOrderServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootRabbitMqApplication.class, args);
+		SpringApplication.run(RabbitMqOrderServiceApplication.class, args);
 	}
-
 }
-
